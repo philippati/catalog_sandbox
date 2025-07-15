@@ -1,0 +1,91 @@
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0f0f1a;
+  color: #00fff7;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+/* Header */
+header {
+  padding: 2rem 0;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #ff00ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00ffff;
+}
+
+/* Neon glow effect */
+.glow {
+  color: #56ffca;
+  text-shadow: 0 0 5px #faff00, 0 0 10px #faff00, 0 0 20px #faff00, 0 0 40px #0ff;
+}
+
+/* Hero section */
+.hero {
+  margin: 4rem 0;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #f0f;
+}
+
+.hero p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #ccccff;
+}
+
+.hero button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  background: #00fff7;
+  color: #0f0f1a;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00fff7, 0 0 20px #0ff;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.hero button:hover {
+  background: #0ff;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #5555ff;
+}
