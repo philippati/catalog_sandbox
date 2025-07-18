@@ -123,3 +123,14 @@ ul{
   padding: 0;
   margin: 0;
 }
+
+nav{
+  position: fixed;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-indez: 99;
+}
